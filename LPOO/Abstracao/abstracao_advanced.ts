@@ -3,22 +3,33 @@
  * ======================================================
  *
  * 🔥 O que este código faz?
- *  - Simula um **sistema de processamento de pedidos** em um restaurante, onde os pedidos podem ser de diferentes tipos de comida.
- *  - Utiliza **Abstração** para esconder detalhes da implementação do processamento de pedidos, permitindo que a interface seja simples e flexível.
- *  - Faz uso de **funções puras** e **closures** para criar uma estrutura desacoplada e modular.
+ *  - Simula um **sistema de processamento de pedidos** em um restaurante, onde 
+ * os pedidos podem ser de diferentes tipos de comida.
+ *  - Utiliza **Abstração** para esconder detalhes da implementação do processamento
+ *  de pedidos, permitindo que a interface seja simples e flexível.
+ *  - Faz uso de **funções puras** e **closures** para criar uma estrutura desacoplada 
+ * e modular.
  *
  * 🔍 Principais conceitos aplicados:
  *
- * 1️⃣ **Abstração** → A implementação do tipo de pedido (Pizza, Sushi, Hambúrguer) é ocultada, e só os métodos `preparar` e `finalizar` são expostos.
- * 2️⃣ **Funções Puras** → Cada tipo de pedido é tratado como uma função separada, e o estado é mantido de forma isolada e segura.
- * 3️⃣ **Interfaces e Tipos Dinâmicos** → A interface `Pedido` define os métodos comuns que todos os pedidos devem ter, permitindo que novos tipos de pedidos sejam adicionados sem modificar o código existente.
- * 4️⃣ **Composição sobre Herança** → Cada tipo de pedido é composto por funções que podem ser reutilizadas em diferentes contextos, sem a necessidade de herança.
- * 5️⃣ **Simplicidade e Flexibilidade** → O sistema é altamente flexível, permitindo facilmente adicionar novos tipos de pedidos sem modificar a estrutura do código existente.
+ * 1️⃣ **Abstração** → A implementação do tipo de pedido (Pizza, Sushi, Hambúrguer)
+ *  é ocultada, e só os métodos `preparar` e `finalizar` são expostos.
+ * 2️⃣ **Funções Puras** → Cada tipo de pedido é tratado como uma função separada, 
+ * e o estado é mantido de forma isolada e segura.
+ * 3️⃣ **Interfaces e Tipos Dinâmicos** → A interface `Pedido` define os métodos 
+ * comuns que todos os pedidos devem ter, permitindo que novos tipos de pedidos 
+ * sejam adicionados sem modificar o código existente.
+ * 4️⃣ **Composição sobre Herança** → Cada tipo de pedido é composto por funções 
+ * que podem ser reutilizadas em diferentes contextos, sem a necessidade de herança.
+ * 5️⃣ **Simplicidade e Flexibilidade** → O sistema é altamente flexível, permitindo 
+ * facilmente adicionar novos tipos de pedidos sem modificar a estrutura do código existente.
  *
  * 💡 O que torna este código difícil de entender?
  *  - Usa **funções puras e closures**, criando um sistema de abstração sem classes.
- *  - A criação de novos tipos de pedidos pode ser feita de maneira modular e sem interrupção no fluxo de código, o que pode ser difícil de seguir.
- *  - A **abstração** feita através da interface `Pedido` esconde a complexidade de cada tipo de pedido.
+ *  - A criação de novos tipos de pedidos pode ser feita de maneira modular e sem 
+ * interrupção no fluxo de código, o que pode ser difícil de seguir.
+ *  - A **abstração** feita através da interface `Pedido` esconde a complexidade 
+ * de cada tipo de pedido.
  *
  * 🎯 O objetivo é mostrar como aplicar **Abstração Funcional** em TypeScript sem classes!
  */
