@@ -3,7 +3,8 @@
  * =======================================================
  *
  * 🔥 O que este código faz?
- *  - Este exemplo demonstra **abstração** em TypeScript usando **funções puras** e **interfaces**.
+ *  - Este exemplo demonstra **abstração** em TypeScript usando **funções puras**
+ * e **interfaces**.
  *  - A função `criarUsuario` gera objetos do tipo `Usuario` com o método `autenticar()`.
  *  - A **interface `Usuario`** define a estrutura para criar usuários, mas a 
  * implementação de como a autenticação ocorre está abstraída dentro da função.
@@ -44,7 +45,7 @@ const criarUsuario = (nome: string): Usuario => ({
 });
 
 /// 🏡 Criando usuários sem se preocupar com detalhes internos
-const usuario1 = criarUsuario("Carlos");
+const usuario1 = criarUsuario('Carlos');
 const usuario2 = criarUsuario("Ana");
 
 usuario1.autenticar(); // 🔑 Carlos autenticado com sucesso!
